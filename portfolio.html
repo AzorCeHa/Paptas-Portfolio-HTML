@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: black;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 10px 0 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+    }
+    #about {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    #about img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ddd;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: black;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      color: white;
+    }
+    .project-card img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: black;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer | Programmer</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <img src="photoprofile.png" alt="Photo Profile">
+    <div>
+      <h2>About Me</h2>
+      <p>Hello, I am a programmer.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Project</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="project1.png" alt="project1">
+        <h3>Project 1</h3>
+        <p>Your Project Description.</p>
+      </div>
+      <div class="project-card">
+        <img src="project2.png" alt="project2">
+        <h3>Project 2</h3>
+        <p>Your Project Description.</p>
+      </div>
+           <div class="project-card">
+        <img src="project3.png" alt="project3">
+        
+        <h3>Project 3</h3>
+        <p>Your Project Description.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto: your@email.com">your@email.com</a></p>
+    <p>Facebook: <a href="https://www.facebook.com/" target="_blank">www.facebook.com/username</a></p>
+    <p>GitHub: <a href="https://github.com/" target="_blank">github.com/username</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; Your Copyright/Atribution.</p>
+  </footer>
+</body>
+</html>
