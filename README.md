@@ -1,2 +1,2 @@
-# Tentang Project Ini
-Code HTML untuk website portofolio pribadi.
+# About This
+HTML code for personal portfolios, businesses, and other.
